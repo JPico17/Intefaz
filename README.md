@@ -1,0 +1,7 @@
+
+## Interfaces
+- Las Interfaces son usadas para indicar qué métodos debe obligatoriamente implementar (contener) una Clase (aunque no tienen por qué comportarse del mismo modo).
+
+- Los métodos definidos en una una Interface deben ser public.
+
+- Una interfaz es un conjunto de métodos y propiedades que no tiene ninguna implementación. La implementación la va a hacer cada uno de los elementos que herede de la interfaz dependiendo de sus necesidades. Es similar a lo que hemos visto como clase abstracta, pero en este caso la interfaz no tiene variables ni constantes ni tampoco puede heredar de otras clases pero sí puede heredar de otras interfaces. Regularmente se dice que una interfaz es como un contrato; en él se indican las cláusulas, es decir, solamente vamos a indicar lo que los elementos que derivan de ella van a contener. Voy a definir en mi ejercicio una interfaz para ver cómo se crea y cómo funciona. Agregamos "Carro y Bicicleta" e indico que voy a agregar una interfaz. Voy a poner "Rueda y Silla". He creado dos nuevas interfaces, llamada "Rueda y Silla". Si agrego atributos a esta interfaz me va a marcar un error. Voy a probarlo. Aquí me está indicando el error. Las interfaces no pueden incluir atributos.
